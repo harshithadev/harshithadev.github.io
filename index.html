@@ -30,7 +30,7 @@
         -->
         <header>
             <div>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
                     <a class="navbar-brand"  href="index.html"><img id="logo-style" src="img/logo.png" alt="HD" title="Harshitha Devineni">Harshitha Devineni</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
@@ -38,16 +38,16 @@
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                       <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">About Me</a>
+                          <a class="nav-link" href="#aboutme">About Me</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Education</a>
+                          <a class="nav-link" href="#education">Education</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Hobbies</a>
+                            <a class="nav-link" href="#hobbies">Hobbies</a>
                           </li>
                         <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -60,7 +60,7 @@
                           </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                           </li>
                       </ul>
                     </div>
@@ -77,16 +77,106 @@
                     <p>Welcome to my page. I am an aspiring developer. And with this page I mark my journey.</p>
                   </div>
                </section> 
-               <section id="about">
+               <section id="aboutme">
                 <div class="jumbotron jumbotron-fluid">
                     <div class="container opacitybg">
-                      <h1 class="display-4">Fluid jumbotron</h1>
-                      <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                      <h1 class="display-4">About </h1>
+                      <p class="lead">I am a student @VIT university, Chennai. Iam currently pursuing my Inegrated Masters degree in Software Engineering.</p>
                     </div>
                   </div>
                </section>
+               <section id="education">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container opacitybg">
+                      <h1 class="display-4">Education</h1>
+                      <dl class="lead">
+                          <dt>School</dt>
+                          <dd>Amrtia Vidylayam, Chennai</dd>
+                          <dt>College</dt>
+                          <dd>(Integrated Masters Degree in Software Engineering)</dd>
+                          <dd>Vellore Institute of Technology, Chennai</dd>
+                          
+                      </dl>
+                       </div>
+                  </div>
+               </section>
+               <section id="hobbies">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container opacitybg">
+                      <h1 class="display-4">Hobbies </h1>
+                      <p class="lead">Coding aside, I love to take some time off, grab a book and read. I am passionate about photography and lowkey into editing as well.</p>
+                    </div>
+                  </div>
+               </section>
+               <section>
+                   <div class="jumbotron jumbotron-fluid">
+                    <div class="container opacitybg">
+                        <h1 class="display-4">Skills and Endorsements</h1>
+                        <br>
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                              <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Skills
+                                  </button>
+                                </h2>
+                            </div>
+                              <div id="collapseOne" class="collapse buttpadding show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p class="lead">Tools & Technology</p>
+                                    <button type="button" class="btn btn-outline-info">HTML5</button>
+                                    <button type="button" class="btn btn-outline-info">CSS</button>
+                                    <button type="button" class="btn btn-outline-info">JavaScript</button>
+                                    <button type="button" class="btn btn-outline-info">jQuery</button>
+                                    <hr>
+                                    <p class="lead">Interpersonal Skills</p>
+                                    <button type="button" class="btn btn-outline-info">Communcation</button>
+                                    <hr>
+                                    <p class="lead">Languages</p>
+                                    <button type="button" class="btn btn-outline-info">English</button>
+                                    <button type="button" class="btn btn-outline-info">Spanish</button>
+                                    <button type="button" class="btn btn-outline-info">Hindi</button>
+                                    <hr>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Certificates
+                                  </button>
+                                </h2>
+                              </div>
+                              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                  
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Accomplishments
+                                  </button>
+                                </h2>
+                              </div>
+                              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                   </div>
+               </section>
         </main>
-        <footer>
+        <footer class="jumbotron jumbotron-fluid" id="contact">
+            <div class="container">
+            <h1 class="display-4">Contact </h1>
+            <br>
             <div class="card-deck">
                 <div class="card">
                   <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
@@ -139,6 +229,7 @@
                   </div>
                 </div>
               </div>
+            </div>
         </footer>
     </body>
 </html>
