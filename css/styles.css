@@ -1,0 +1,35 @@
+#logo-style{
+    height: 3em;
+}
+
+.footer {
+    padding: 2em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.img-thumbnail{
+    height: 5em;
+    width: 5em;
+}
+.figure{
+    padding-right: 1em;
+}
+/* #home{
+    background-image: url("../img/wallpaer.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: inherit;
+} */
+
+#home{
+    text-align: center;
+}
+.opacitybg{
+    border: navy;
+}
+#about{
+    background-image: url("../img/about-me.png");
+    background-color: olive;
+}
