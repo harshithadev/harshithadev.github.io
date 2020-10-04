@@ -33,3 +33,7 @@
     background-image: url("../img/about-me.png");
     background-color: olive;
 }
+.jumbotron{
+    background-size: cover;   
+    min-height: 100vh;  
+}
